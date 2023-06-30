@@ -54,7 +54,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
             // and try to click on someone else 's profile page
             // and try to go to that user , the url does update with react routerbut the components
             // doesn't re render
-            navigate(`/profile/${friendId}`);
+            navigate(`https://mern-social-media-twuu.onrender.com/profile/${friendId}`);
             // solution: goes to next user's page and will refesh the page by navigate(0)
             navigate(0);
           }}
