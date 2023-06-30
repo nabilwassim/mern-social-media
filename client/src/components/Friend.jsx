@@ -30,7 +30,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const patchFriend = async () => {
     const response = await fetch(
       // _id = user id , friend id 
-      `https://unisocial-iwkj.onrender.com/users/${_id}/${friendId}`,
+      `https://mern-social-media-twuu.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

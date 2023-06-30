@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://unisocial-iwkj.onrender.com/assets/${image}`}
+        src={`https://mern-social-media-twuu.onrender.com/assets/${image}`}
       />
     </Box>
   );
