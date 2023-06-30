@@ -74,7 +74,7 @@ const Form = () => {
 // saves whats coming back from the backend
 // send data to back end
     const savedUserResponse = await fetch(
-      "https://unisocial-iwkj.onrender.com/auth/register",
+      "https://mern-social-media-twuu.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
@@ -89,7 +89,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await fetch("https://unisocial-iwkj.onrender.com/auth/login", {
+    const loggedInResponse = await fetch("https://mern-social-media-twuu.onrender.com/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

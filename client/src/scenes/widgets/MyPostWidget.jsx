@@ -59,7 +59,7 @@ const MyPostWidget = ({ picturePath }) => {
     }
 
     // const response will send the post information to the backend
-    const response = await fetch(`https://unisocial-iwkj.onrender.com/posts`, {
+    const response = await fetch(`https://mern-social-media-twuu.onrender.com/posts`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,

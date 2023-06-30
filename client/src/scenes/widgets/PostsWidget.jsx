@@ -14,7 +14,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   // in home page 
   const getPosts = async () => {
     // grab all the posts from server route
-    const response = await fetch("http://localhost:3001/posts", {
+    const response = await fetch("https://mern-social-media-twuu.onrender.com/posts", {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -26,7 +26,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   // in user profile 
   const getUserPosts = async () => {
     const response = await fetch(
-      `https://unisocial-iwkj.onrender.com/posts/${userId}/posts`,
+      `https://mern-social-media-twuu.onrender.com/posts/${userId}/posts`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

@@ -25,7 +25,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
   const getUser = async () => {
     // بجيب بيانات اليوز كاي بي اي من الباك ايند
-    const response = await fetch(`https://unisocial-iwkj.onrender.com/users/${userId}`, {
+    const response = await fetch(`https://mern-social-media-twuu.onrender.com/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
