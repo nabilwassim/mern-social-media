@@ -55,11 +55,11 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
             // and try to go to that user , the url does update with react routerbut the components
             // doesn't re render
           
-            navigate(`/profile/${friendId}`);
+            // navigate(`/profile/${friendId}`);
             // solution: goes to next user's page and will refesh the page by navigate(0)
             // navigate(0);
-            window.location.reload();
-            // navigate("/home");
+            // window.location.reload();
+            navigate("/home");
           }}
         >
           <Typography
