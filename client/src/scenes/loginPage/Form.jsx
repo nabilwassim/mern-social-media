@@ -294,7 +294,7 @@ const Form = () => {
                 : "Already have an account? Login here."}
             </Typography>
           </Box>
-          <Typography sx={{marginTop:"10px"}} variant="body1" color="initial">Powered By Devainer</Typography>
+          <Typography sx={{marginTop:"10px"}} variant="body1">Powered By Devainer</Typography>
         </form>
       )}
     </Formik>
